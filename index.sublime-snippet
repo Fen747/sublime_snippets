@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+import './${1:file}.html';
+import './${1:file}.js';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>index</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

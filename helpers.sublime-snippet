@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Template.${1:name}.helpers({
+	${2:helper} () {
+		${3:}
+		return ( ${4:} );
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helpers</tabTrsigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

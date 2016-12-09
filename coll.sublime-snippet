@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+export const ${1:coll} = new Mongo.Collection("${1:coll}");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>coll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
